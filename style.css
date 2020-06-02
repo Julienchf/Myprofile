@@ -1,0 +1,87 @@
+body {
+	background-color: rgb(240,240,240);
+}
+h1 {
+	width: 600px;
+	font-family: 'Abril Fatface', cursive;
+	font-size: 45px;
+	color: white;
+	background-color: #02E094;
+	}
+h2 {
+ 		text-align: center;
+ 		color: white;
+		font-size: 25px;
+		font-family: 'Abril Fatface', cursive;
+		padding: 5px;
+		margin: 20px auto;
+		border-radius: 4px;
+		box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+		background-color: #142850;
+	}
+p {
+ 		text-align: center;
+ 		color: #142850;
+		font-size: 17px;
+		font-family: 'Barlow', sans-serif;
+		background-color: white;
+	}
+a {
+  color: white;
+  transition: color 1s ease;
+  padding: 10px;
+  border-radius: 4px;
+  background-color: #142850;
+  font-family: 'Barlow', sans-serif;
+  font-size: 20px;
+  text-decoration: none;
+  box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+}
+a:hover {
+  color: #02E094;
+  text-decoration: none;
+}
+.card {
+	width: 600px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+ 	text-align: center;
+	padding: 30px;
+	margin: 20px auto;
+	background-color: white;	
+}
+.card2 {
+	width: 600px;
+	border-radius: 4px;
+	box-shadow: 3px 3px 5px rgba(0,0,0,0.1);
+ 	text-align: center;
+	padding: 30px;
+	margin: 20px auto;
+	background-color: white;
+
+}
+#julien {
+	width: 120px;
+	border-radius: 50%;
+	margin: 10px;
+}
+@media (max-width: 720px) {
+  .card {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+
+    	width: 300px;
+  }
+}
+@media (max-width: 720px) {
+  .card2 {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+	.card2 {
+    	width: 300px;
+  }
+}
